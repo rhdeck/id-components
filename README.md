@@ -11,7 +11,7 @@ Utility library for composing compound identifiers that survive url-encoding
 <a name="_librarymd"></a>
 
 
-# @raydeck/id-components - v1.0.0
+# @raydeck/id-components - v1.0.1
 
 ## Index
 
@@ -32,7 +32,7 @@ Utility library for composing compound identifiers that survive url-encoding
 
 ▸ **cleanComponent**(`component`: string): *string*
 
-*Defined in [index.ts:68](https://github.com/rhdeck/id-components/blob/868fa22/src/index.ts#L68)*
+*Defined in [index.ts:68](https://github.com/rhdeck/id-components/blob/d80755a/src/index.ts#L68)*
 
 Clean a component for use (lower-case)
 
@@ -50,7 +50,7 @@ ___
 
 ▸ **decodeComponent**(`component`: string): *string*
 
-*Defined in [index.ts:61](https://github.com/rhdeck/id-components/blob/868fa22/src/index.ts#L61)*
+*Defined in [index.ts:61](https://github.com/rhdeck/id-components/blob/d80755a/src/index.ts#L61)*
 
 Decode a component previously wrapped by encodeCOmponent
 (and should be the same if it was not encoded previously)
@@ -69,7 +69,7 @@ ___
 
 ▸ **encodeComponent**(`component`: string): *string*
 
-*Defined in [index.ts:53](https://github.com/rhdeck/id-components/blob/868fa22/src/index.ts#L53)*
+*Defined in [index.ts:53](https://github.com/rhdeck/id-components/blob/d80755a/src/index.ts#L53)*
 
 Encode a component in an un-wrappable way
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **isCompoundId**(`id`: string): *boolean*
 
-*Defined in [index.ts:38](https://github.com/rhdeck/id-components/blob/868fa22/src/index.ts#L38)*
+*Defined in [index.ts:38](https://github.com/rhdeck/id-components/blob/d80755a/src/index.ts#L38)*
 
 Determine whether the string is a compound id
 
@@ -105,7 +105,7 @@ ___
 
 ▸ **makeCompoundId**(`primaryId`: string, `secondaryId`: string): *string*
 
-*Defined in [index.ts:46](https://github.com/rhdeck/id-components/blob/868fa22/src/index.ts#L46)*
+*Defined in [index.ts:46](https://github.com/rhdeck/id-components/blob/d80755a/src/index.ts#L46)*
 
 Create a compound ID from two other ids
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **parseCompoundId**(`id`: string): *string[]*
 
-*Defined in [index.ts:25](https://github.com/rhdeck/id-components/blob/868fa22/src/index.ts#L25)*
+*Defined in [index.ts:25](https://github.com/rhdeck/id-components/blob/d80755a/src/index.ts#L25)*
 
 Parse a compound id (e.g. url-encoded and joined with slashses) into its constituent components
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **parseUri**(`uri`: string): *string[]*
 
-*Defined in [index.ts:75](https://github.com/rhdeck/id-components/blob/868fa22/src/index.ts#L75)*
+*Defined in [index.ts:75](https://github.com/rhdeck/id-components/blob/d80755a/src/index.ts#L75)*
 
 Parse a URI into scheme and host components for uri-ization
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **undefinedIfError**‹**T**›(`fnc`: function, `defaultValue`: T | undefined): *Promise‹T | undefined›*
 
-*Defined in [index.ts:10](https://github.com/rhdeck/id-components/blob/868fa22/src/index.ts#L10)*
+*Defined in [index.ts:10](https://github.com/rhdeck/id-components/blob/d80755a/src/index.ts#L10)*
 
 Check a function and return the `defaultValue` in the event it returns an error (rather than throwing)
 
