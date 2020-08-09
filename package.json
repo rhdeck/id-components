@@ -1,6 +1,6 @@
 {
   "name": "@raydeck/id-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility library for unwrappable ID components",
   "main": "lib/index.js",
   "bin": "lib/bin.js",
